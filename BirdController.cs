@@ -15,7 +15,7 @@ public class BirdController : MonoBehaviour
 
     // Update is called once per frame
 
-    //"Snake"°´Ã¼¿Í Ãæµ¹À» °¨ÁöÇÏ¸é DecresaeHp¿¡ ¾Ë¸²
+    //"Snake"ê°ì²´ì™€ ì¶©ëŒì„ ê°ì§€í•˜ë©´ DecresaeHpì— ì•Œë¦¼
     void OnTriggerEnter2D(Collider2D collider)
     {
         if(collider.name == "Snake")
@@ -27,3 +27,4 @@ public class BirdController : MonoBehaviour
         }
     }
 }
+
