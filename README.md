@@ -39,33 +39,6 @@ Save와 Load를 통하여 자신이 만들어 놓은 상황을 저장, 로딩 �
              게임을 저장, 불러오기, 퇴장할 수 있는 메뉴 기능.
  
  
- # 스크립트 설명
  
- ActionController - 아이템 획득 시 사용axeController - 도끼 공격과 데미지 설정	
-CloseWeapon - 근접무기 필요 컴포넌트 관리(시간차를 두기 위해 코루틴 사용)
-CloseWeaponController - 근접무기의 공격과 애니메이션 관리(각종 행동에 시간차를 두기 위해 코루틴 사용)
-Crosshair - 플레이어의 상태에 따른 크로스헤어 상태와 총의 정확도 조절
-EnemyScore - 화면의 적군 스코어를 관리
-FieldOfViewAngle - 적군의 시야각을 설정하여 시야 안에 플레이어가 있는지 판단
-GameDirector - Hp게이지를 찾아 적군에게 공격 받을 시의 플레이어 hp 관리
-GameManager - 인벤토리나 메뉴가 호출되었을 때 마우스 커서의 가시성과 적용여부 설정
-Gun - 소유한 총의 컴포넌트 설정과 소유 총알을 더하는 함수
-GunController - 총의 장전, 정조준, 공격, 발사 등 모든 총과 관련된 애니메이션, 사운드를 관리
-Hud - 총알 관련 txt를 관리
-HandController - 손으로 인한 공격의 여부를 관리
-Inventory - 인벤토리 창의 활성화와 획득한 아이템 관리
-Item -  획득할 아이템의 성질 관리
-ItemPickUp - item스크립트 호출
-PauseMenu - 게임을 저장,불러오기,종료를 담당하는 메뉴창 활성화 여부 관리
-People - 마을주민이 플레이어와의 충돌 여부 확인
-PeopleScore - 화면의 people UI를 관리하고 enemy와 people의 목적 달성 시 씬 전환 관리
-PlayerController - 플레이어의 모든 행동들을 관리하고 적군과 마을사람과의 충돌 시 발생하는 함수를 관리
-SaveNLoad - 저장 함수 호출 시 플레이어의 현재 상태와 인벤토리의 정보들을 저장하여 파일을 생성
-Slot - 인벤토리 안의 슬롯들을 관리하는 스크립트. 아이템의 사용을 관리할 수 있음
-SlotToolTip - 아이템에 대한 정보를 슬롯에서 볼 수 있음
-Soldier - 적군의 무작위 행동과 hp, 죽음 등의 모든 행동들을 관리할 수 있음
-Title -  시작화면의 버튼들에 임무를 할당
-WeaponManager - 현재 무기에 대한 정보와 무기 교체시의 애니메이션과 스크립트를 관리
-WeaponSway - 무기를 들고 있을 경우 무기의 움직임을 관리
 
 
