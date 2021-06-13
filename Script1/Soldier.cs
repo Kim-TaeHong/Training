@@ -141,7 +141,7 @@ public class Soldier : MonoBehaviour
             if (hp <= 0)
             {
                 Dead();
-                Destroy(gameObject, 2f);
+                Destroy(gameObject, 2f);// hp가 0이 되면 2초 뒤 삭제됨.
                 return;
             }
 
