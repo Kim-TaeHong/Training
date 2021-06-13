@@ -145,7 +145,7 @@ public class Soldier : MonoBehaviour
                 return;
             }
 
-            Chase(_targetPos);
+            Chase(_targetPos); // 플레이어에게 피격당할 시 플레이어를 쫓아감.
         }
     }
 
